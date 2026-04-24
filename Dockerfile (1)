@@ -1,8 +1,9 @@
 FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
+
 SHELL ["/bin/bash", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive
 
-# ── Base OS deps ──────────────────────────────────────────────────────────────
+#  Base OS / ROS2 apt deps 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     locales \
     curl \
@@ -12,110 +13,77 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
-# ── Locale ────────────────────────────────────────────────────────────────────
+# Locale 
 RUN locale-gen en_US en_US.UTF-8 && \
     update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LC_ALL=en_US.UTF-8
 
-# ── ROS 2 Humble apt source ───────────────────────────────────────────────────
+#  Install ROS 2 Humble
 RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key \
     | gpg --dearmor -o /usr/share/keyrings/ros-archive-keyring.gpg && \
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] \
     http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" \
     > /etc/apt/sources.list.d/ros2.list
 
-# ── System / ROS deps ─────────────────────────────────────────────────────────
+#  System deps
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    # Python build tools
     python3-pip \
     python3-colcon-common-extensions \
     python3-rosdep \
-    python3-opencv \
-    # ROS core + dev tools
     ros-dev-tools \
     ros-humble-ros-base \
-    # Interfaces & messages
     ros-humble-vision-msgs \
-    ros-humble-visualization-msgs \
-    ros-humble-std-msgs \
-    ros-humble-geometry-msgs \
-    ros-humble-sensor-msgs \
-    ros-humble-sensor-msgs-py \
-    # Image transport
     ros-humble-cv-bridge \
-    ros-humble-image-transport \
-    ros-humble-compressed-image-transport \
-    # TF
-    ros-humble-tf2-ros \
-    ros-humble-tf2-sensor-msgs \
-    # Utilities
-    ros-humble-message-filters \
-    # Bag / bridge
-    ros-humble-rosbag2 \
-    ros-humble-rosbag2-storage-mcap \
-    ros-humble-foxglove-bridge \
-    # DDS
-    ros-humble-rmw-cyclonedds-cpp \
-    # OpenGL / GLib (headless OpenCV)
-    libgl1 \
-    libglib2.0-0 \
-    # Shell utils
+    python3-opencv \
     tmux \
     vim \
+    ros-humble-rosbag2 \
+    ros-humble-rosbag2-storage-mcap \
+    ros-humble-image-transport \
+    ros-humble-compressed-image-transport \
+    ros-humble-foxglove-bridge \
+    libgl1 \
+    libglib2.0-0 \
+    ros-humble-rmw-cyclonedds-cpp \
     && rm -rf /var/lib/apt/lists/*
 
-# ── DDS defaults ──────────────────────────────────────────────────────────────
+# Set DDS/RMW defaults
 ENV ROS_DOMAIN_ID=0
 ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
-# ── Python deps ───────────────────────────────────────────────────────────────
-# 1. Upgrade pip/wheel
-RUN python3 -m pip install --no-cache-dir --upgrade pip wheel
-
-# 2. PyTorch + TorchVision built against CUDA 12.1
-RUN python3 -m pip install --no-cache-dir \
-    torch torchvision \
-    --index-url https://download.pytorch.org/whl/cu121
-
-# 3. TensorRT (CUDA 12 wheel)
-RUN python3 -m pip install --no-cache-dir tensorrt-cu12
-
-# 4. Ultralytics (YOLO) + scikit-learn
-RUN python3 -m pip install --no-cache-dir \
-    ultralytics \
-    scikit-learn
-
-# 5. Remove any conflicting OpenCV pip installs, then pin numpy
-#    (apt's python3-opencv and pip's opencv-* disagree on ABI)
-RUN python3 -m pip uninstall -y \
-        opencv-python \
-        opencv-python-headless \
-        opencv-contrib-python 2>/dev/null || true && \
+#  Python deps 
+RUN python3 -m pip install --no-cache-dir --upgrade pip wheel && \
+    python3 -m pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cu121 && \
+    python3 -m pip install --no-cache-dir tensorrt-cu12 && \
+    python3 -m pip install --no-cache-dir ultralytics && \
+    python3 -m pip uninstall -y opencv-python opencv-python-headless opencv-contrib-python || true && \
     python3 -m pip install --no-cache-dir --force-reinstall "numpy==1.26.4"
 
-# ── ROS workspace ─────────────────────────────────────────────────────────────
+#  ROS workspace 
 ENV WS=/ws
 WORKDIR ${WS}
 
+# Copy package into the workspace
 COPY src ${WS}/src/
 
-# ── rosdep ────────────────────────────────────────────────────────────────────
+# rosdep
 RUN rosdep init 2>/dev/null || true && \
     rosdep update && \
     source /opt/ros/humble/setup.bash && \
     rosdep install --from-paths src --ignore-src -r -y
 
-# ── Build ─────────────────────────────────────────────────────────────────────
+# Build
 RUN source /opt/ros/humble/setup.bash && \
     colcon build --symlink-install
 
-# ── Pre-download YOLO weights at build time ───────────────────────────────────
+# pre-download YOLO weights at build time
 ARG YOLO_MODEL=yolo12x.pt
 RUN python3 -c "from ultralytics import YOLO; YOLO('${YOLO_MODEL}')"
 
-# ── Entrypoint ────────────────────────────────────────────────────────────────
+# Entrypoint
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
+
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["bash"]
