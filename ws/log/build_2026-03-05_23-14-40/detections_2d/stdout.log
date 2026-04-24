@@ -1,0 +1,26 @@
+running egg_info
+writing ../../../build/detections_2d/detections_2d.egg-info/PKG-INFO
+writing dependency_links to ../../../build/detections_2d/detections_2d.egg-info/dependency_links.txt
+writing entry points to ../../../build/detections_2d/detections_2d.egg-info/entry_points.txt
+writing requirements to ../../../build/detections_2d/detections_2d.egg-info/requires.txt
+writing top-level names to ../../../build/detections_2d/detections_2d.egg-info/top_level.txt
+reading manifest file '../../../build/detections_2d/detections_2d.egg-info/SOURCES.txt'
+writing manifest file '../../../build/detections_2d/detections_2d.egg-info/SOURCES.txt'
+running build
+running build_py
+copying detections_2d/tensor_rt.py -> /ws/build/detections_2d/build/lib/detections_2d
+running install
+running install_lib
+copying /ws/build/detections_2d/build/lib/detections_2d/tensor_rt.py -> /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+byte-compiling /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d/tensor_rt.py to tensor_rt.cpython-310.pyc
+running install_data
+copying launch/tensor_rt.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+running install_egg_info
+removing '/ws/install/detections_2d/lib/python3.10/site-packages/detections_2d-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/detections_2d/detections_2d.egg-info to /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d-0.0.1-py3.10.egg-info
+running install_scripts
+Installing batch_2d script to /ws/install/detections_2d/lib/detections_2d
+Installing old_batch script to /ws/install/detections_2d/lib/detections_2d
+Installing serialized script to /ws/install/detections_2d/lib/detections_2d
+Installing single_2d script to /ws/install/detections_2d/lib/detections_2d
+writing list of installed files to '/ws/build/detections_2d/install.log'

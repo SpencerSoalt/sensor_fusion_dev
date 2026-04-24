@@ -1,0 +1,26 @@
+[0.359s] Invoking command in '/ws/build/lidar_camera_fusion': PYTHONPATH=/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/lidar_camera_fusion/build --no-deps symlink_data
+[0.453s] running develop
+[0.491s] running egg_info
+[0.491s] creating lidar_camera_fusion.egg-info
+[0.491s] writing lidar_camera_fusion.egg-info/PKG-INFO
+[0.491s] writing dependency_links to lidar_camera_fusion.egg-info/dependency_links.txt
+[0.491s] writing entry points to lidar_camera_fusion.egg-info/entry_points.txt
+[0.491s] writing requirements to lidar_camera_fusion.egg-info/requires.txt
+[0.491s] writing top-level names to lidar_camera_fusion.egg-info/top_level.txt
+[0.491s] writing manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'
+[0.491s] reading manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'
+[0.492s] writing manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'
+[0.492s] running build_ext
+[0.492s] Creating /ws/install/lidar_camera_fusion/lib/python3.10/site-packages/lidar-camera-fusion.egg-link (link to .)
+[0.493s] Installing lidar_camera_fusion script to /ws/install/lidar_camera_fusion/lib/lidar_camera_fusion
+[0.493s] 
+[0.493s] Installed /ws/build/lidar_camera_fusion
+[0.493s] running symlink_data
+[0.494s] creating /ws/install/lidar_camera_fusion/share/ament_index
+[0.494s] creating /ws/install/lidar_camera_fusion/share/ament_index/resource_index
+[0.494s] creating /ws/install/lidar_camera_fusion/share/ament_index/resource_index/packages
+[0.494s] symbolically linking /ws/build/lidar_camera_fusion/resource/lidar_camera_fusion -> /ws/install/lidar_camera_fusion/share/ament_index/resource_index/packages
+[0.494s] symbolically linking /ws/build/lidar_camera_fusion/package.xml -> /ws/install/lidar_camera_fusion/share/lidar_camera_fusion
+[0.494s] creating /ws/install/lidar_camera_fusion/share/lidar_camera_fusion/launch
+[0.494s] symbolically linking /ws/build/lidar_camera_fusion/launch/lidar_camera_fusion.launch.py -> /ws/install/lidar_camera_fusion/share/lidar_camera_fusion/launch
+[0.513s] Invoked command in '/ws/build/lidar_camera_fusion' returned '0': PYTHONPATH=/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/lidar_camera_fusion/build --no-deps symlink_data

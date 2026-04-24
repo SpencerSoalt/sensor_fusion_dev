@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating detections_2d.egg-info
+writing detections_2d.egg-info/PKG-INFO
+writing dependency_links to detections_2d.egg-info/dependency_links.txt
+writing entry points to detections_2d.egg-info/entry_points.txt
+writing requirements to detections_2d.egg-info/requires.txt
+writing top-level names to detections_2d.egg-info/top_level.txt
+writing manifest file 'detections_2d.egg-info/SOURCES.txt'
+reading manifest file 'detections_2d.egg-info/SOURCES.txt'
+writing manifest file 'detections_2d.egg-info/SOURCES.txt'
+running build_ext
+Creating /ws/install/detections_2d/lib/python3.10/site-packages/detections-2d.egg-link (link to .)
+Installing batch_2d script to /ws/install/detections_2d/lib/detections_2d
+Installing old_batch script to /ws/install/detections_2d/lib/detections_2d
+Installing serialized script to /ws/install/detections_2d/lib/detections_2d
+Installing single_2d script to /ws/install/detections_2d/lib/detections_2d
+
+Installed /ws/build/detections_2d
+running symlink_data
+creating /ws/install/detections_2d/share/ament_index
+creating /ws/install/detections_2d/share/ament_index/resource_index
+creating /ws/install/detections_2d/share/ament_index/resource_index/packages
+symbolically linking /ws/build/detections_2d/resource/detections_2d -> /ws/install/detections_2d/share/ament_index/resource_index/packages
+symbolically linking /ws/build/detections_2d/package.xml -> /ws/install/detections_2d/share/detections_2d
+creating /ws/install/detections_2d/share/detections_2d/launch
+symbolically linking /ws/build/detections_2d/launch/tensor_rt.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+symbolically linking /ws/build/detections_2d/launch/single_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+symbolically linking /ws/build/detections_2d/launch/old_batch.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+symbolically linking /ws/build/detections_2d/launch/batch_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/detection_2_5d/detection_2_5d.egg-info/PKG-INFO
+../../build/detection_2_5d/detection_2_5d.egg-info/SOURCES.txt
+../../build/detection_2_5d/detection_2_5d.egg-info/dependency_links.txt
+../../build/detection_2_5d/detection_2_5d.egg-info/entry_points.txt
+../../build/detection_2_5d/detection_2_5d.egg-info/requires.txt
+../../build/detection_2_5d/detection_2_5d.egg-info/top_level.txt
+../../build/detection_2_5d/detection_2_5d.egg-info/zip-safe
+detection_2_5d/__init__.py
+detection_2_5d/detection_2_5d.py
+launch/detection_2_5d.launch.py
+resource/detection_2_5d

@@ -1,0 +1,32 @@
+[0.363s] Invoking command in '/ws/build/detections_2d': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/detections_2d/build --no-deps symlink_data
+[0.459s] running develop
+[0.495s] running egg_info
+[0.495s] creating detections_2d.egg-info
+[0.495s] writing detections_2d.egg-info/PKG-INFO
+[0.495s] writing dependency_links to detections_2d.egg-info/dependency_links.txt
+[0.495s] writing entry points to detections_2d.egg-info/entry_points.txt
+[0.495s] writing requirements to detections_2d.egg-info/requires.txt
+[0.495s] writing top-level names to detections_2d.egg-info/top_level.txt
+[0.495s] writing manifest file 'detections_2d.egg-info/SOURCES.txt'
+[0.496s] reading manifest file 'detections_2d.egg-info/SOURCES.txt'
+[0.496s] writing manifest file 'detections_2d.egg-info/SOURCES.txt'
+[0.497s] running build_ext
+[0.497s] Creating /ws/install/detections_2d/lib/python3.10/site-packages/detections-2d.egg-link (link to .)
+[0.497s] Installing batch_2d script to /ws/install/detections_2d/lib/detections_2d
+[0.498s] Installing old_batch script to /ws/install/detections_2d/lib/detections_2d
+[0.498s] Installing serialized script to /ws/install/detections_2d/lib/detections_2d
+[0.498s] Installing single_2d script to /ws/install/detections_2d/lib/detections_2d
+[0.498s] 
+[0.498s] Installed /ws/build/detections_2d
+[0.498s] running symlink_data
+[0.498s] creating /ws/install/detections_2d/share/ament_index
+[0.498s] creating /ws/install/detections_2d/share/ament_index/resource_index
+[0.498s] creating /ws/install/detections_2d/share/ament_index/resource_index/packages
+[0.499s] symbolically linking /ws/build/detections_2d/resource/detections_2d -> /ws/install/detections_2d/share/ament_index/resource_index/packages
+[0.499s] symbolically linking /ws/build/detections_2d/package.xml -> /ws/install/detections_2d/share/detections_2d
+[0.499s] creating /ws/install/detections_2d/share/detections_2d/launch
+[0.499s] symbolically linking /ws/build/detections_2d/launch/tensor_rt.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.499s] symbolically linking /ws/build/detections_2d/launch/single_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.499s] symbolically linking /ws/build/detections_2d/launch/old_batch.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.499s] symbolically linking /ws/build/detections_2d/launch/batch_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.512s] Invoked command in '/ws/build/detections_2d' returned '0': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/detections_2d/build --no-deps symlink_data

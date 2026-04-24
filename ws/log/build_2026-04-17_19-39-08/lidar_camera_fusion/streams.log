@@ -1,0 +1,21 @@
+[0.734s] Invoking command in '/ws/src/lidar_camera_fusion': PYTHONPATH=/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_camera_fusion build --build-base /ws/build/lidar_camera_fusion/build install --record /ws/build/lidar_camera_fusion/install.log --single-version-externally-managed install_data
+[0.871s] running egg_info
+[0.871s] writing ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/PKG-INFO
+[0.871s] writing dependency_links to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/entry_points.txt
+[0.871s] writing requirements to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/top_level.txt
+[0.872s] reading manifest file '../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/SOURCES.txt'
+[0.872s] writing manifest file '../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.873s] running install
+[0.873s] running install_lib
+[0.873s] running install_data
+[0.873s] running install_egg_info
+[0.878s] removing '/ws/install/lidar_camera_fusion/lib/python3.10/site-packages/lidar_camera_fusion-0.0.1-py3.10.egg-info' (and everything under it)
+[0.878s] Copying ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info to /ws/install/lidar_camera_fusion/lib/python3.10/site-packages/lidar_camera_fusion-0.0.1-py3.10.egg-info
+[0.878s] running install_scripts
+[0.898s] Installing lidar_camera_fusion script to /ws/install/lidar_camera_fusion/lib/lidar_camera_fusion
+[0.899s] writing list of installed files to '/ws/build/lidar_camera_fusion/install.log'
+[0.918s] Invoked command in '/ws/src/lidar_camera_fusion' returned '0': PYTHONPATH=/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_camera_fusion build --build-base /ws/build/lidar_camera_fusion/build install --record /ws/build/lidar_camera_fusion/install.log --single-version-externally-managed install_data

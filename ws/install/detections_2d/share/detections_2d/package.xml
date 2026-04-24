@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>detections_2d</name>
+  <version>0.0.1</version>
+  <description>YOLOv12 (Ultralytics YOLO12) 2D detector for two frontal cameras.</description>
+
+  <maintainer email="you@todo.todo">you</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <!-- ultralytics/torch/opencv are typically installed via pip/apt in your runtime env -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

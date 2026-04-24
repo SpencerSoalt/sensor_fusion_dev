@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>detection_2_5d</name>
+  <version>0.0.1</version>
+  <description>
+    2.5D detection node: lifts YOLO 2D bounding boxes into pseudo-3D using
+    LiDAR depth statistics per box, then refines with DBSCAN cluster association
+    to publish a Detection3DArray.
+  </description>
+
+  <maintainer email="sosoalt@ucsd.edu">Spencer Soalt</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <!-- numpy / opencv / scipy installed via pip/apt in runtime env -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

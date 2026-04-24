@@ -1,0 +1,280 @@
+[0.051s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.051s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=5, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff93894400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9386fdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9386fdf0>>, mixin_verb=('build',))
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ws'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_04-02_18_09) by extension 'python_setup_py'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2026_03_05-01_05_02) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbscan_clustering) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dbscan_clustering' with type 'ros.ament_python' and name 'dbscan_clustering'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/detections_2d/detections_2d) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/detections_2d/detections_2d' with type 'ros.ament_python' and name 'detections_2d'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_fusion) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_camera_fusion' with type 'ros.ament_python' and name 'lidar_camera_fusion'
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dbscan_clustering' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'dbscan_clustering' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/dbscan_clustering', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/dbscan_clustering', 'merge_install': False, 'path': '/ws/src/dbscan_clustering', 'symlink_install': False, 'test_result_base': None}
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'detections_2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'detections_2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/detections_2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/detections_2d', 'merge_install': False, 'path': '/ws/src/detections_2d/detections_2d', 'symlink_install': False, 'test_result_base': None}
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_camera_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/lidar_camera_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/lidar_camera_fusion', 'merge_install': False, 'path': '/ws/src/lidar_camera_fusion', 'symlink_install': False, 'test_result_base': None}
+[0.147s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.148s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ws/src/dbscan_clustering' with build type 'ament_python'
+[0.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbscan_clustering', 'ament_prefix_path')
+[0.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/dbscan_clustering/share/dbscan_clustering/hook/ament_prefix_path.ps1'
+[0.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/dbscan_clustering/share/dbscan_clustering/hook/ament_prefix_path.dsv'
+[0.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/dbscan_clustering/share/dbscan_clustering/hook/ament_prefix_path.sh'
+[0.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ws/src/detections_2d/detections_2d' with build type 'ament_python'
+[0.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('detections_2d', 'ament_prefix_path')
+[0.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/detections_2d/share/detections_2d/hook/ament_prefix_path.ps1'
+[0.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/detections_2d/share/detections_2d/hook/ament_prefix_path.dsv'
+[0.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/detections_2d/share/detections_2d/hook/ament_prefix_path.sh'
+[0.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.155s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ws/src/lidar_camera_fusion' with build type 'ament_python'
+[0.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_fusion', 'ament_prefix_path')
+[0.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/hook/ament_prefix_path.ps1'
+[0.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/hook/ament_prefix_path.dsv'
+[0.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/hook/ament_prefix_path.sh'
+[0.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ws/src/dbscan_clustering'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ws/src/detections_2d/detections_2d'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ws/src/lidar_camera_fusion'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/src/dbscan_clustering': PYTHONPATH=/ws/build/dbscan_clustering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/dbscan_clustering/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dbscan_clustering build --build-base /ws/build/dbscan_clustering/build install --record /ws/build/dbscan_clustering/install.log --single-version-externally-managed install_data
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/src/detections_2d/detections_2d': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/detections_2d build --build-base /ws/build/detections_2d/build install --record /ws/build/detections_2d/install.log --single-version-externally-managed install_data
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/src/lidar_camera_fusion': PYTHONPATH=/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_camera_fusion build --build-base /ws/build/lidar_camera_fusion/build install --record /ws/build/lidar_camera_fusion/install.log --single-version-externally-managed install_data
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/src/dbscan_clustering' returned '0': PYTHONPATH=/ws/build/dbscan_clustering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/dbscan_clustering/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dbscan_clustering build --build-base /ws/build/dbscan_clustering/build install --record /ws/build/dbscan_clustering/install.log --single-version-externally-managed install_data
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering' for CMake module files
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering' for CMake config files
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering/lib'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering/bin'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering/lib/pkgconfig/dbscan_clustering.pc'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering/lib/python3.10/site-packages'
+[0.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbscan_clustering', 'pythonpath')
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/dbscan_clustering/share/dbscan_clustering/hook/pythonpath.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/dbscan_clustering/share/dbscan_clustering/hook/pythonpath.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/dbscan_clustering/share/dbscan_clustering/hook/pythonpath.sh'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/ws/install/dbscan_clustering/bin'
+[0.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dbscan_clustering)
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/dbscan_clustering/share/dbscan_clustering/package.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/dbscan_clustering/share/dbscan_clustering/package.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/dbscan_clustering/share/dbscan_clustering/package.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/dbscan_clustering/share/dbscan_clustering/package.bash'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/dbscan_clustering/share/dbscan_clustering/package.zsh'
+[0.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/dbscan_clustering/share/colcon-core/packages/dbscan_clustering)
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion' for CMake module files
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/src/lidar_camera_fusion' returned '0': PYTHONPATH=/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_camera_fusion build --build-base /ws/build/lidar_camera_fusion/build install --record /ws/build/lidar_camera_fusion/install.log --single-version-externally-managed install_data
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion' for CMake config files
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion/lib'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion/bin'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion/lib/pkgconfig/lidar_camera_fusion.pc'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion/lib/python3.10/site-packages'
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_fusion', 'pythonpath')
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/hook/pythonpath.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/hook/pythonpath.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/hook/pythonpath.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/ws/install/lidar_camera_fusion/bin'
+[0.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_camera_fusion)
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/package.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/package.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/package.sh'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/package.bash'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/lidar_camera_fusion/share/lidar_camera_fusion/package.zsh'
+[0.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/lidar_camera_fusion/share/colcon-core/packages/lidar_camera_fusion)
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d' for CMake module files
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/src/detections_2d/detections_2d' returned '0': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/detections_2d build --build-base /ws/build/detections_2d/build install --record /ws/build/detections_2d/install.log --single-version-externally-managed install_data
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d' for CMake config files
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d/lib'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d/bin'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d/lib/pkgconfig/detections_2d.pc'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d/lib/python3.10/site-packages'
+[0.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('detections_2d', 'pythonpath')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/detections_2d/share/detections_2d/hook/pythonpath.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/detections_2d/share/detections_2d/hook/pythonpath.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/detections_2d/share/detections_2d/hook/pythonpath.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/ws/install/detections_2d/bin'
+[0.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detections_2d)
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/detections_2d/share/detections_2d/package.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/detections_2d/share/detections_2d/package.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/detections_2d/share/detections_2d/package.sh'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/detections_2d/share/detections_2d/package.bash'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/detections_2d/share/detections_2d/package.zsh'
+[0.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/detections_2d/share/colcon-core/packages/detections_2d)
+[0.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.721s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.724s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.724s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[0.725s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ws/install/_local_setup_util_ps1.py'
+[0.726s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ws/install/_local_setup_util_sh.py'
+[0.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.bash'
+[0.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.bash'
+[0.728s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.zsh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.zsh'

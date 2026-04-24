@@ -1,0 +1,24 @@
+[0.439s] Invoking command in '/ws/src/detections_2d/detections_2d': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/detections_2d build --build-base /ws/build/detections_2d/build install --record /ws/build/detections_2d/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.524s] writing ../../../build/detections_2d/detections_2d.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../../build/detections_2d/detections_2d.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../../build/detections_2d/detections_2d.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../../build/detections_2d/detections_2d.egg-info/requires.txt
+[0.524s] writing top-level names to ../../../build/detections_2d/detections_2d.egg-info/top_level.txt
+[0.524s] reading manifest file '../../../build/detections_2d/detections_2d.egg-info/SOURCES.txt'
+[0.524s] writing manifest file '../../../build/detections_2d/detections_2d.egg-info/SOURCES.txt'
+[0.524s] running build
+[0.524s] running build_py
+[0.524s] running install
+[0.524s] running install_lib
+[0.524s] running install_data
+[0.524s] running install_egg_info
+[0.524s] removing '/ws/install/detections_2d/lib/python3.10/site-packages/detections_2d-0.0.1-py3.10.egg-info' (and everything under it)
+[0.524s] Copying ../../../build/detections_2d/detections_2d.egg-info to /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d-0.0.1-py3.10.egg-info
+[0.525s] running install_scripts
+[0.535s] Installing batch_2d script to /ws/install/detections_2d/lib/detections_2d
+[0.535s] Installing old_batch script to /ws/install/detections_2d/lib/detections_2d
+[0.535s] Installing serialized script to /ws/install/detections_2d/lib/detections_2d
+[0.535s] Installing single_2d script to /ws/install/detections_2d/lib/detections_2d
+[0.535s] writing list of installed files to '/ws/build/detections_2d/install.log'
+[0.556s] Invoked command in '/ws/src/detections_2d/detections_2d' returned '0': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/detections_2d build --build-base /ws/build/detections_2d/build install --record /ws/build/detections_2d/install.log --single-version-externally-managed install_data

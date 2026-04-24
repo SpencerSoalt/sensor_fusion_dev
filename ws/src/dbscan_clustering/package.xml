@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dbscan_clustering</name>
+  <version>0.0.1</version>
+  <description>
+    DBSCAN-based 3D clustering node: subscribes to /fused/cloud_in_boxes,
+    clusters points, majority-votes class labels, and publishes
+    Detection3DArray bounding boxes + markers.
+  </description>
+  <maintainer email="sosoalt@ucsd.edu">Spencer Soalt</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-sklearn</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

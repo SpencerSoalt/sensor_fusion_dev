@@ -1,0 +1,6 @@
+[console_scripts]
+batch_2d = detections_2d.batch_2d:main
+old_batch = detections_2d.old_batch:main
+serialized = detections_2d.serialized:main
+single_2d = detections_2d.single_2d:main
+

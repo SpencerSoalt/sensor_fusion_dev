@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lidar-camera-fusion
+Version: 0.0.1
+Summary: LiDAR-camera fusion: projects PointCloud2 into 2D bounding boxes to produce Detection3DArray.
+Home-page: UNKNOWN
+Maintainer: you
+Maintainer-email: you@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

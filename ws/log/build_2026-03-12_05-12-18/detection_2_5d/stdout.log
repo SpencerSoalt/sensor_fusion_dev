@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/detection_2_5d/detection_2_5d.egg-info/PKG-INFO
+writing dependency_links to ../../build/detection_2_5d/detection_2_5d.egg-info/dependency_links.txt
+writing entry points to ../../build/detection_2_5d/detection_2_5d.egg-info/entry_points.txt
+writing requirements to ../../build/detection_2_5d/detection_2_5d.egg-info/requires.txt
+writing top-level names to ../../build/detection_2_5d/detection_2_5d.egg-info/top_level.txt
+reading manifest file '../../build/detection_2_5d/detection_2_5d.egg-info/SOURCES.txt'
+writing manifest file '../../build/detection_2_5d/detection_2_5d.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/ws/install/detection_2_5d/lib/python3.10/site-packages/detection_2_5d-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/detection_2_5d/detection_2_5d.egg-info to /ws/install/detection_2_5d/lib/python3.10/site-packages/detection_2_5d-0.0.1-py3.10.egg-info
+running install_scripts
+Installing detection_2_5d script to /ws/install/detection_2_5d/lib/detection_2_5d
+writing list of installed files to '/ws/build/detection_2_5d/install.log'

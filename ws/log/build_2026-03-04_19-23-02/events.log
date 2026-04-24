@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (detections_2d) JobQueued: {'identifier': 'detections_2d', 'dependencies': OrderedDict()}
+[0.000455] (lidar_camera_fusion) JobQueued: {'identifier': 'lidar_camera_fusion', 'dependencies': OrderedDict()}
+[0.000470] (detections_2d) JobStarted: {'identifier': 'detections_2d'}
+[0.008123] (lidar_camera_fusion) JobStarted: {'identifier': 'lidar_camera_fusion'}
+[0.100722] (-) TimerEvent: {}
+[0.201424] (-) TimerEvent: {}
+[0.302245] (-) TimerEvent: {}
+[0.363004] (detections_2d) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/detections_2d/build', '--no-deps', 'symlink_data'], 'cwd': '/ws/build/detections_2d', 'env': {'NV_LIBCUBLAS_VERSION': '12.1.3.1-1', 'WS': '/ws', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NV_LIBNCCL_PACKAGE_VERSION': '2.17.1-1', 'HOME': '/root', 'NV_CUDNN_PACKAGE_NAME': 'libcudnn8', 'ROS_PYTHON_VERSION': '3', 'NV_LIBNPP_PACKAGE': 'libnpp-12-1=12.1.0.40-1', 'NV_CUDNN_PACKAGE': 'libcudnn8=8.9.0.131-1+cuda12.1', 'CUDA_VERSION': '12.1.1', 'ROS_DISTRO': 'humble', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-12-1', 'NVIDIA_REQUIRE_CUDA': 'cuda>=12.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '12.1.0.106-1', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'NV_CUDA_LIB_VERSION': '12.1.1-1', 'NV_LIBNCCL_PACKAGE_NAME': 'libnccl2', 'NV_CUDA_CUDART_VERSION': '12.1.105-1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-12-1=12.1.3.1-1', 'NVARCH': 'sbsa', 'NV_LIBNCCL_PACKAGE': 'libnccl2=2.17.1-1+cuda12.1', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'NV_NVTX_VERSION': '12.1.105-1', 'NV_LIBNPP_VERSION': '12.1.0.40-1', 'NV_CUDNN_VERSION': '8.9.0.131', 'PWD': '/ws/build/detections_2d', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'NCCL_VERSION': '2.17.1-1', 'COLCON': '1'}, 'shell': False}
+[0.365635] (lidar_camera_fusion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/lidar_camera_fusion/build', '--no-deps', 'symlink_data'], 'cwd': '/ws/build/lidar_camera_fusion', 'env': {'NV_LIBCUBLAS_VERSION': '12.1.3.1-1', 'WS': '/ws', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'NV_LIBNCCL_PACKAGE_VERSION': '2.17.1-1', 'HOME': '/root', 'NV_CUDNN_PACKAGE_NAME': 'libcudnn8', 'ROS_PYTHON_VERSION': '3', 'NV_LIBNPP_PACKAGE': 'libnpp-12-1=12.1.0.40-1', 'NV_CUDNN_PACKAGE': 'libcudnn8=8.9.0.131-1+cuda12.1', 'CUDA_VERSION': '12.1.1', 'ROS_DISTRO': 'humble', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-12-1', 'NVIDIA_REQUIRE_CUDA': 'cuda>=12.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '12.1.0.106-1', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'NV_CUDA_LIB_VERSION': '12.1.1-1', 'NV_LIBNCCL_PACKAGE_NAME': 'libnccl2', 'NV_CUDA_CUDART_VERSION': '12.1.105-1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-12-1=12.1.3.1-1', 'NVARCH': 'sbsa', 'NV_LIBNCCL_PACKAGE': 'libnccl2=2.17.1-1+cuda12.1', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'NV_NVTX_VERSION': '12.1.105-1', 'NV_LIBNPP_VERSION': '12.1.0.40-1', 'NV_CUDNN_VERSION': '8.9.0.131', 'PWD': '/ws/build/lidar_camera_fusion', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/ws/build/lidar_camera_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lidar_camera_fusion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'NCCL_VERSION': '2.17.1-1', 'COLCON': '1'}, 'shell': False}
+[0.403732] (-) TimerEvent: {}
+[0.458994] (detections_2d) StdoutLine: {'line': b'running develop\n'}
+[0.461425] (lidar_camera_fusion) StdoutLine: {'line': b'running develop\n'}
+[0.495345] (detections_2d) StdoutLine: {'line': b'running egg_info\n'}
+[0.495508] (detections_2d) StdoutLine: {'line': b'creating detections_2d.egg-info\n'}
+[0.495553] (detections_2d) StdoutLine: {'line': b'writing detections_2d.egg-info/PKG-INFO\n'}
+[0.495656] (detections_2d) StdoutLine: {'line': b'writing dependency_links to detections_2d.egg-info/dependency_links.txt\n'}
+[0.495699] (detections_2d) StdoutLine: {'line': b'writing entry points to detections_2d.egg-info/entry_points.txt\n'}
+[0.495779] (detections_2d) StdoutLine: {'line': b'writing requirements to detections_2d.egg-info/requires.txt\n'}
+[0.495801] (detections_2d) StdoutLine: {'line': b'writing top-level names to detections_2d.egg-info/top_level.txt\n'}
+[0.495821] (detections_2d) StdoutLine: {'line': b"writing manifest file 'detections_2d.egg-info/SOURCES.txt'\n"}
+[0.496506] (detections_2d) StdoutLine: {'line': b"reading manifest file 'detections_2d.egg-info/SOURCES.txt'\n"}
+[0.496844] (detections_2d) StdoutLine: {'line': b"writing manifest file 'detections_2d.egg-info/SOURCES.txt'\n"}
+[0.497385] (detections_2d) StdoutLine: {'line': b'running build_ext\n'}
+[0.497550] (detections_2d) StdoutLine: {'line': b'Creating /ws/install/detections_2d/lib/python3.10/site-packages/detections-2d.egg-link (link to .)\n'}
+[0.497802] (detections_2d) StdoutLine: {'line': b'Installing batch_2d script to /ws/install/detections_2d/lib/detections_2d\n'}
+[0.497986] (detections_2d) StdoutLine: {'line': b'Installing old_batch script to /ws/install/detections_2d/lib/detections_2d\n'}
+[0.498038] (detections_2d) StdoutLine: {'line': b'Installing serialized script to /ws/install/detections_2d/lib/detections_2d\n'}
+[0.498069] (detections_2d) StdoutLine: {'line': b'Installing single_2d script to /ws/install/detections_2d/lib/detections_2d\n'}
+[0.498363] (detections_2d) StdoutLine: {'line': b'\n'}
+[0.498624] (detections_2d) StdoutLine: {'line': b'Installed /ws/build/detections_2d\n'}
+[0.498672] (detections_2d) StdoutLine: {'line': b'running symlink_data\n'}
+[0.498718] (detections_2d) StdoutLine: {'line': b'creating /ws/install/detections_2d/share/ament_index\n'}
+[0.498757] (detections_2d) StdoutLine: {'line': b'creating /ws/install/detections_2d/share/ament_index/resource_index\n'}
+[0.498788] (lidar_camera_fusion) StdoutLine: {'line': b'running egg_info\n'}
+[0.498835] (detections_2d) StdoutLine: {'line': b'creating /ws/install/detections_2d/share/ament_index/resource_index/packages\n'}
+[0.498880] (lidar_camera_fusion) StdoutLine: {'line': b'creating lidar_camera_fusion.egg-info\n'}
+[0.498965] (detections_2d) StdoutLine: {'line': b'symbolically linking /ws/build/detections_2d/resource/detections_2d -> /ws/install/detections_2d/share/ament_index/resource_index/packages\n'}
+[0.498991] (lidar_camera_fusion) StdoutLine: {'line': b'writing lidar_camera_fusion.egg-info/PKG-INFO\n'}
+[0.499012] (detections_2d) StdoutLine: {'line': b'symbolically linking /ws/build/detections_2d/package.xml -> /ws/install/detections_2d/share/detections_2d\n'}
+[0.499034] (detections_2d) StdoutLine: {'line': b'creating /ws/install/detections_2d/share/detections_2d/launch\n'}
+[0.499055] (detections_2d) StdoutLine: {'line': b'symbolically linking /ws/build/detections_2d/launch/tensor_rt.launch.py -> /ws/install/detections_2d/share/detections_2d/launch\n'}
+[0.499084] (detections_2d) StdoutLine: {'line': b'symbolically linking /ws/build/detections_2d/launch/single_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch\n'}
+[0.499105] (detections_2d) StdoutLine: {'line': b'symbolically linking /ws/build/detections_2d/launch/old_batch.launch.py -> /ws/install/detections_2d/share/detections_2d/launch\n'}
+[0.499126] (detections_2d) StdoutLine: {'line': b'symbolically linking /ws/build/detections_2d/launch/batch_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch\n'}
+[0.499147] (lidar_camera_fusion) StdoutLine: {'line': b'writing dependency_links to lidar_camera_fusion.egg-info/dependency_links.txt\n'}
+[0.499168] (lidar_camera_fusion) StdoutLine: {'line': b'writing entry points to lidar_camera_fusion.egg-info/entry_points.txt\n'}
+[0.499219] (lidar_camera_fusion) StdoutLine: {'line': b'writing requirements to lidar_camera_fusion.egg-info/requires.txt\n'}
+[0.499244] (lidar_camera_fusion) StdoutLine: {'line': b'writing top-level names to lidar_camera_fusion.egg-info/top_level.txt\n'}
+[0.499265] (lidar_camera_fusion) StdoutLine: {'line': b"writing manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'\n"}
+[0.499503] (lidar_camera_fusion) StdoutLine: {'line': b"reading manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'\n"}
+[0.499779] (lidar_camera_fusion) StdoutLine: {'line': b"writing manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'\n"}
+[0.500403] (lidar_camera_fusion) StdoutLine: {'line': b'running build_ext\n'}
+[0.500529] (lidar_camera_fusion) StdoutLine: {'line': b'Creating /ws/install/lidar_camera_fusion/lib/python3.10/site-packages/lidar-camera-fusion.egg-link (link to .)\n'}
+[0.501093] (lidar_camera_fusion) StdoutLine: {'line': b'Installing lidar_camera_fusion script to /ws/install/lidar_camera_fusion/lib/lidar_camera_fusion\n'}
+[0.501329] (lidar_camera_fusion) StdoutLine: {'line': b'\n'}
+[0.501438] (lidar_camera_fusion) StdoutLine: {'line': b'Installed /ws/build/lidar_camera_fusion\n'}
+[0.501482] (lidar_camera_fusion) StdoutLine: {'line': b'running symlink_data\n'}
+[0.501672] (lidar_camera_fusion) StdoutLine: {'line': b'creating /ws/install/lidar_camera_fusion/share/ament_index\n'}
+[0.501714] (lidar_camera_fusion) StdoutLine: {'line': b'creating /ws/install/lidar_camera_fusion/share/ament_index/resource_index\n'}
+[0.501826] (lidar_camera_fusion) StdoutLine: {'line': b'creating /ws/install/lidar_camera_fusion/share/ament_index/resource_index/packages\n'}
+[0.501852] (lidar_camera_fusion) StdoutLine: {'line': b'symbolically linking /ws/build/lidar_camera_fusion/resource/lidar_camera_fusion -> /ws/install/lidar_camera_fusion/share/ament_index/resource_index/packages\n'}
+[0.501875] (lidar_camera_fusion) StdoutLine: {'line': b'symbolically linking /ws/build/lidar_camera_fusion/package.xml -> /ws/install/lidar_camera_fusion/share/lidar_camera_fusion\n'}
+[0.501896] (lidar_camera_fusion) StdoutLine: {'line': b'creating /ws/install/lidar_camera_fusion/share/lidar_camera_fusion/launch\n'}
+[0.501917] (lidar_camera_fusion) StdoutLine: {'line': b'symbolically linking /ws/build/lidar_camera_fusion/launch/lidar_camera_fusion.launch.py -> /ws/install/lidar_camera_fusion/share/lidar_camera_fusion/launch\n'}
+[0.504235] (-) TimerEvent: {}
+[0.512096] (detections_2d) CommandEnded: {'returncode': 0}
+[0.519632] (detections_2d) JobEnded: {'identifier': 'detections_2d', 'rc': 0}
+[0.520871] (lidar_camera_fusion) CommandEnded: {'returncode': 0}
+[0.523778] (lidar_camera_fusion) JobEnded: {'identifier': 'lidar_camera_fusion', 'rc': 0}
+[0.524005] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: detection-2-5d
+Version: 0.0.1
+Summary: 2.5D detection: lifts 2D boxes into pseudo-3D using per-box LiDAR depth statistics.
+Home-page: UNKNOWN
+Maintainer: Spencer Soalt
+Maintainer-email: sosoalt@ucsd.edu
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

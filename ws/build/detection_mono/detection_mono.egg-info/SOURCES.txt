@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/detection_mono/detection_mono.egg-info/PKG-INFO
+../../build/detection_mono/detection_mono.egg-info/SOURCES.txt
+../../build/detection_mono/detection_mono.egg-info/dependency_links.txt
+../../build/detection_mono/detection_mono.egg-info/entry_points.txt
+../../build/detection_mono/detection_mono.egg-info/requires.txt
+../../build/detection_mono/detection_mono.egg-info/top_level.txt
+../../build/detection_mono/detection_mono.egg-info/zip-safe
+detection_mono/__init__.py
+detection_mono/detection_mono.py
+launch/detection_mono.launch.py
+resource/detection_mono

@@ -1,0 +1,3 @@
+[console_scripts]
+dbscan_node = dbscan_clustering.dbscan_clustering:main
+

@@ -1,0 +1,21 @@
+[0.696s] Invoking command in '/ws/src/detection_mono': PYTHONPATH=/ws/build/detection_mono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detection_mono/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detection_mono build --build-base /ws/build/detection_mono/build install --record /ws/build/detection_mono/install.log --single-version-externally-managed install_data
+[0.809s] running egg_info
+[0.809s] writing ../../build/detection_mono/detection_mono.egg-info/PKG-INFO
+[0.809s] writing dependency_links to ../../build/detection_mono/detection_mono.egg-info/dependency_links.txt
+[0.809s] writing entry points to ../../build/detection_mono/detection_mono.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../build/detection_mono/detection_mono.egg-info/requires.txt
+[0.810s] writing top-level names to ../../build/detection_mono/detection_mono.egg-info/top_level.txt
+[0.811s] reading manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+[0.811s] writing manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+[0.811s] running build
+[0.811s] running build_py
+[0.811s] running install
+[0.812s] running install_lib
+[0.812s] running install_data
+[0.813s] running install_egg_info
+[0.813s] removing '/ws/install/detection_mono/lib/python3.10/site-packages/detection_mono-0.0.1-py3.10.egg-info' (and everything under it)
+[0.813s] Copying ../../build/detection_mono/detection_mono.egg-info to /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono-0.0.1-py3.10.egg-info
+[0.814s] running install_scripts
+[0.826s] Installing detection_mono script to /ws/install/detection_mono/lib/detection_mono
+[0.826s] writing list of installed files to '/ws/build/detection_mono/install.log'
+[0.841s] Invoked command in '/ws/src/detection_mono' returned '0': PYTHONPATH=/ws/build/detection_mono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detection_mono/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detection_mono build --build-base /ws/build/detection_mono/build install --record /ws/build/detection_mono/install.log --single-version-externally-managed install_data

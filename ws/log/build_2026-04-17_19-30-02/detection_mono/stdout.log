@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/detection_mono/detection_mono.egg-info
+writing ../../build/detection_mono/detection_mono.egg-info/PKG-INFO
+writing dependency_links to ../../build/detection_mono/detection_mono.egg-info/dependency_links.txt
+writing entry points to ../../build/detection_mono/detection_mono.egg-info/entry_points.txt
+writing requirements to ../../build/detection_mono/detection_mono.egg-info/requires.txt
+writing top-level names to ../../build/detection_mono/detection_mono.egg-info/top_level.txt
+writing manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+reading manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+writing manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ws/build/detection_mono/build
+creating /ws/build/detection_mono/build/lib
+creating /ws/build/detection_mono/build/lib/detection_mono
+copying detection_mono/__init__.py -> /ws/build/detection_mono/build/lib/detection_mono
+copying detection_mono/detection_mono.py -> /ws/build/detection_mono/build/lib/detection_mono
+running install
+running install_lib
+creating /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono
+copying /ws/build/detection_mono/build/lib/detection_mono/__init__.py -> /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono
+copying /ws/build/detection_mono/build/lib/detection_mono/detection_mono.py -> /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono
+byte-compiling /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono/detection_mono.py to detection_mono.cpython-310.pyc
+running install_data
+creating /ws/install/detection_mono/share/ament_index
+creating /ws/install/detection_mono/share/ament_index/resource_index
+creating /ws/install/detection_mono/share/ament_index/resource_index/packages
+copying resource/detection_mono -> /ws/install/detection_mono/share/ament_index/resource_index/packages
+copying package.xml -> /ws/install/detection_mono/share/detection_mono
+creating /ws/install/detection_mono/share/detection_mono/launch
+copying launch/detection_mono.launch.py -> /ws/install/detection_mono/share/detection_mono/launch
+running install_egg_info
+Copying ../../build/detection_mono/detection_mono.egg-info to /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono-0.0.1-py3.10.egg-info
+running install_scripts
+Installing detection_mono script to /ws/install/detection_mono/lib/detection_mono
+writing list of installed files to '/ws/build/detection_mono/install.log'

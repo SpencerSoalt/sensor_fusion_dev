@@ -1,0 +1,3 @@
+[console_scripts]
+detection_2_5d = detection_2_5d.detection_2_5d:main
+

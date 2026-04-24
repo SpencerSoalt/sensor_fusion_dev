@@ -1,0 +1,6 @@
+source;share/dbscan_clustering/hook/pythonpath.ps1
+source;share/dbscan_clustering/hook/pythonpath.dsv
+source;share/dbscan_clustering/hook/pythonpath.sh
+source;share/dbscan_clustering/hook/ament_prefix_path.ps1
+source;share/dbscan_clustering/hook/ament_prefix_path.dsv
+source;share/dbscan_clustering/hook/ament_prefix_path.sh

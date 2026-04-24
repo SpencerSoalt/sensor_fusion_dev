@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating lidar_camera_fusion.egg-info
+writing lidar_camera_fusion.egg-info/PKG-INFO
+writing dependency_links to lidar_camera_fusion.egg-info/dependency_links.txt
+writing entry points to lidar_camera_fusion.egg-info/entry_points.txt
+writing requirements to lidar_camera_fusion.egg-info/requires.txt
+writing top-level names to lidar_camera_fusion.egg-info/top_level.txt
+writing manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'
+reading manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'
+writing manifest file 'lidar_camera_fusion.egg-info/SOURCES.txt'
+running build_ext
+Creating /ws/install/lidar_camera_fusion/lib/python3.10/site-packages/lidar-camera-fusion.egg-link (link to .)
+Installing lidar_camera_fusion script to /ws/install/lidar_camera_fusion/lib/lidar_camera_fusion
+
+Installed /ws/build/lidar_camera_fusion
+running symlink_data
+creating /ws/install/lidar_camera_fusion/share/ament_index
+creating /ws/install/lidar_camera_fusion/share/ament_index/resource_index
+creating /ws/install/lidar_camera_fusion/share/ament_index/resource_index/packages
+symbolically linking /ws/build/lidar_camera_fusion/resource/lidar_camera_fusion -> /ws/install/lidar_camera_fusion/share/ament_index/resource_index/packages
+symbolically linking /ws/build/lidar_camera_fusion/package.xml -> /ws/install/lidar_camera_fusion/share/lidar_camera_fusion
+creating /ws/install/lidar_camera_fusion/share/lidar_camera_fusion/launch
+symbolically linking /ws/build/lidar_camera_fusion/launch/lidar_camera_fusion.launch.py -> /ws/install/lidar_camera_fusion/share/lidar_camera_fusion/launch

@@ -1,0 +1,22 @@
+[0.438s] Invoking command in '/ws/src/dbscan_clustering': PYTHONPATH=/ws/build/dbscan_clustering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/dbscan_clustering/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dbscan_clustering build --build-base /ws/build/dbscan_clustering/build install --record /ws/build/dbscan_clustering/install.log --single-version-externally-managed install_data
+[0.519s] running egg_info
+[0.519s] writing ../../build/dbscan_clustering/dbscan_clustering.egg-info/PKG-INFO
+[0.519s] writing dependency_links to ../../build/dbscan_clustering/dbscan_clustering.egg-info/dependency_links.txt
+[0.519s] writing entry points to ../../build/dbscan_clustering/dbscan_clustering.egg-info/entry_points.txt
+[0.520s] writing requirements to ../../build/dbscan_clustering/dbscan_clustering.egg-info/requires.txt
+[0.520s] writing top-level names to ../../build/dbscan_clustering/dbscan_clustering.egg-info/top_level.txt
+[0.520s] reading manifest file '../../build/dbscan_clustering/dbscan_clustering.egg-info/SOURCES.txt'
+[0.520s] writing manifest file '../../build/dbscan_clustering/dbscan_clustering.egg-info/SOURCES.txt'
+[0.520s] running build
+[0.520s] running build_py
+[0.520s] running install
+[0.521s] running install_lib
+[0.521s] running install_data
+[0.521s] copying launch/dbscan_clustering.launch.py -> /ws/install/dbscan_clustering/share/dbscan_clustering/launch
+[0.521s] running install_egg_info
+[0.522s] removing '/ws/install/dbscan_clustering/lib/python3.10/site-packages/dbscan_clustering-0.0.1-py3.10.egg-info' (and everything under it)
+[0.522s] Copying ../../build/dbscan_clustering/dbscan_clustering.egg-info to /ws/install/dbscan_clustering/lib/python3.10/site-packages/dbscan_clustering-0.0.1-py3.10.egg-info
+[0.523s] running install_scripts
+[0.533s] Installing dbscan_node script to /ws/install/dbscan_clustering/lib/dbscan_clustering
+[0.533s] writing list of installed files to '/ws/build/dbscan_clustering/install.log'
+[0.546s] Invoked command in '/ws/src/dbscan_clustering' returned '0': PYTHONPATH=/ws/build/dbscan_clustering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/dbscan_clustering/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dbscan_clustering build --build-base /ws/build/dbscan_clustering/build install --record /ws/build/dbscan_clustering/install.log --single-version-externally-managed install_data

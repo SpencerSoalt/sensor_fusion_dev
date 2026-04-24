@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: detection-mono
+Version: 0.0.1
+Summary: Camera-only mono depth estimation via size-prior back-projection.
+Home-page: UNKNOWN
+Maintainer: Spencer Soalt
+Maintainer-email: sosoalt@ucsd.edu
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

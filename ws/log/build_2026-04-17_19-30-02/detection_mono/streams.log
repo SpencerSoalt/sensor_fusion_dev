@@ -1,0 +1,39 @@
+[0.699s] Invoking command in '/ws/src/detection_mono': PYTHONPATH=/ws/build/detection_mono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detection_mono/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detection_mono build --build-base /ws/build/detection_mono/build install --record /ws/build/detection_mono/install.log --single-version-externally-managed install_data
+[0.804s] running egg_info
+[0.804s] creating ../../build/detection_mono/detection_mono.egg-info
+[0.804s] writing ../../build/detection_mono/detection_mono.egg-info/PKG-INFO
+[0.804s] writing dependency_links to ../../build/detection_mono/detection_mono.egg-info/dependency_links.txt
+[0.805s] writing entry points to ../../build/detection_mono/detection_mono.egg-info/entry_points.txt
+[0.805s] writing requirements to ../../build/detection_mono/detection_mono.egg-info/requires.txt
+[0.806s] writing top-level names to ../../build/detection_mono/detection_mono.egg-info/top_level.txt
+[0.806s] writing manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+[0.806s] reading manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+[0.806s] writing manifest file '../../build/detection_mono/detection_mono.egg-info/SOURCES.txt'
+[0.806s] running build
+[0.806s] running build_py
+[0.807s] creating /ws/build/detection_mono/build
+[0.807s] creating /ws/build/detection_mono/build/lib
+[0.807s] creating /ws/build/detection_mono/build/lib/detection_mono
+[0.807s] copying detection_mono/__init__.py -> /ws/build/detection_mono/build/lib/detection_mono
+[0.809s] copying detection_mono/detection_mono.py -> /ws/build/detection_mono/build/lib/detection_mono
+[0.810s] running install
+[0.810s] running install_lib
+[0.810s] creating /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono
+[0.810s] copying /ws/build/detection_mono/build/lib/detection_mono/__init__.py -> /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono
+[0.810s] copying /ws/build/detection_mono/build/lib/detection_mono/detection_mono.py -> /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono
+[0.810s] byte-compiling /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono/__init__.py to __init__.cpython-310.pyc
+[0.810s] byte-compiling /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono/detection_mono.py to detection_mono.cpython-310.pyc
+[0.810s] running install_data
+[0.810s] creating /ws/install/detection_mono/share/ament_index
+[0.810s] creating /ws/install/detection_mono/share/ament_index/resource_index
+[0.811s] creating /ws/install/detection_mono/share/ament_index/resource_index/packages
+[0.811s] copying resource/detection_mono -> /ws/install/detection_mono/share/ament_index/resource_index/packages
+[0.811s] copying package.xml -> /ws/install/detection_mono/share/detection_mono
+[0.811s] creating /ws/install/detection_mono/share/detection_mono/launch
+[0.813s] copying launch/detection_mono.launch.py -> /ws/install/detection_mono/share/detection_mono/launch
+[0.814s] running install_egg_info
+[0.814s] Copying ../../build/detection_mono/detection_mono.egg-info to /ws/install/detection_mono/lib/python3.10/site-packages/detection_mono-0.0.1-py3.10.egg-info
+[0.814s] running install_scripts
+[0.822s] Installing detection_mono script to /ws/install/detection_mono/lib/detection_mono
+[0.823s] writing list of installed files to '/ws/build/detection_mono/install.log'
+[0.849s] Invoked command in '/ws/src/detection_mono' returned '0': PYTHONPATH=/ws/build/detection_mono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detection_mono/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detection_mono build --build-base /ws/build/detection_mono/build install --record /ws/build/detection_mono/install.log --single-version-externally-managed install_data

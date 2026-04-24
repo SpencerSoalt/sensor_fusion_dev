@@ -1,0 +1,52 @@
+[0.392s] Invoking command in '/ws/build/detections_2d': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ws/build/detections_2d/build
+[0.487s] running develop
+[0.526s] Removing /ws/install/detections_2d/lib/python3.10/site-packages/detections-2d.egg-link (link to .)
+[0.543s] Invoked command in '/ws/build/detections_2d' returned '0': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ws/build/detections_2d/build
+[0.544s] Invoking command in '/ws/src/detections_2d/detections_2d': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/detections_2d build --build-base /ws/build/detections_2d/build install --record /ws/build/detections_2d/install.log --single-version-externally-managed install_data --force
+[0.627s] running egg_info
+[0.628s] writing ../../../build/detections_2d/detections_2d.egg-info/PKG-INFO
+[0.629s] writing dependency_links to ../../../build/detections_2d/detections_2d.egg-info/dependency_links.txt
+[0.629s] writing entry points to ../../../build/detections_2d/detections_2d.egg-info/entry_points.txt
+[0.630s] writing requirements to ../../../build/detections_2d/detections_2d.egg-info/requires.txt
+[0.630s] writing top-level names to ../../../build/detections_2d/detections_2d.egg-info/top_level.txt
+[0.631s] reading manifest file '../../../build/detections_2d/detections_2d.egg-info/SOURCES.txt'
+[0.633s] writing manifest file '../../../build/detections_2d/detections_2d.egg-info/SOURCES.txt'
+[0.633s] running build
+[0.633s] running build_py
+[0.634s] creating /ws/build/detections_2d/build
+[0.634s] creating /ws/build/detections_2d/build/lib
+[0.634s] creating /ws/build/detections_2d/build/lib/detections_2d
+[0.634s] copying detections_2d/old_batch.py -> /ws/build/detections_2d/build/lib/detections_2d
+[0.634s] copying detections_2d/tensor_rt.py -> /ws/build/detections_2d/build/lib/detections_2d
+[0.634s] copying detections_2d/__init__.py -> /ws/build/detections_2d/build/lib/detections_2d
+[0.635s] copying detections_2d/batch_2d.py -> /ws/build/detections_2d/build/lib/detections_2d
+[0.635s] copying detections_2d/single_2d.py -> /ws/build/detections_2d/build/lib/detections_2d
+[0.635s] running install
+[0.635s] running install_lib
+[0.636s] creating /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+[0.636s] copying /ws/build/detections_2d/build/lib/detections_2d/old_batch.py -> /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+[0.636s] copying /ws/build/detections_2d/build/lib/detections_2d/tensor_rt.py -> /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+[0.636s] copying /ws/build/detections_2d/build/lib/detections_2d/__init__.py -> /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+[0.636s] copying /ws/build/detections_2d/build/lib/detections_2d/batch_2d.py -> /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+[0.636s] copying /ws/build/detections_2d/build/lib/detections_2d/single_2d.py -> /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d
+[0.636s] byte-compiling /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d/old_batch.py to old_batch.cpython-310.pyc
+[0.637s] byte-compiling /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d/tensor_rt.py to tensor_rt.cpython-310.pyc
+[0.638s] byte-compiling /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d/__init__.py to __init__.cpython-310.pyc
+[0.638s] byte-compiling /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d/batch_2d.py to batch_2d.cpython-310.pyc
+[0.639s] byte-compiling /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d/single_2d.py to single_2d.cpython-310.pyc
+[0.639s] running install_data
+[0.640s] copying resource/detections_2d -> /ws/install/detections_2d/share/ament_index/resource_index/packages
+[0.645s] copying package.xml -> /ws/install/detections_2d/share/detections_2d
+[0.645s] copying launch/tensor_rt.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.646s] copying launch/single_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.647s] copying launch/old_batch.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.647s] copying launch/batch_2d.launch.py -> /ws/install/detections_2d/share/detections_2d/launch
+[0.647s] running install_egg_info
+[0.648s] Copying ../../../build/detections_2d/detections_2d.egg-info to /ws/install/detections_2d/lib/python3.10/site-packages/detections_2d-0.0.1-py3.10.egg-info
+[0.650s] running install_scripts
+[0.662s] Installing batch_2d script to /ws/install/detections_2d/lib/detections_2d
+[0.664s] Installing old_batch script to /ws/install/detections_2d/lib/detections_2d
+[0.664s] Installing serialized script to /ws/install/detections_2d/lib/detections_2d
+[0.665s] Installing single_2d script to /ws/install/detections_2d/lib/detections_2d
+[0.665s] writing list of installed files to '/ws/build/detections_2d/install.log'
+[0.680s] Invoked command in '/ws/src/detections_2d/detections_2d' returned '0': PYTHONPATH=/ws/build/detections_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/detections_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/detections_2d build --build-base /ws/build/detections_2d/build install --record /ws/build/detections_2d/install.log --single-version-externally-managed install_data --force

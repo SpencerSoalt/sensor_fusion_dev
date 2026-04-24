@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: detections-2d
+Version: 0.0.1
+Summary: YOLOv12 (Ultralytics YOLO12) 2D detector for two frontal cameras; publishes vision_msgs/Detection2DArray.
+Home-page: UNKNOWN
+Maintainer: you
+Maintainer-email: you@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
